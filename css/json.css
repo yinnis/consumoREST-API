@@ -1,0 +1,42 @@
+﻿* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: white;
+}
+#json {
+    border-radius: 1%;
+    padding: 2%;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #00c5a2;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 5, 1rem;
+    margin-top: 15px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #104455;
+}
+
+#importarJson {
+    border-radius: 15px;
+    border: 2px solid #104455;
+    color: #104455;
+    background-color: #e4e5ed;
+}
+
+    #importarJson :hover {
+        background-color: #008CBA;
+        color: white;
+    }
+
+#personas {
+    color: #104455;
+    background-color: #e4e5ed;
+}
+
+#personas, td {
+    border: 1px solid black;
+}
